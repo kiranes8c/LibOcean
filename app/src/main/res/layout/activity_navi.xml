@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:id="@+id/relativelayout">
+
+    <!--List View from which data is to be searched-->
+    <SearchView
+        android:id="@+id/navi_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_below="@+id/navi_search"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        />
+
+</RelativeLayout>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".activities.NaviActivity">-->
+
+<!--&lt;!&ndash;    <FrameLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/navi_frame"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent">&ndash;&gt;-->
+<!--&lt;!&ndash;    </FrameLayout>&ndash;&gt;-->
+<!--</RelativeLayout>-->

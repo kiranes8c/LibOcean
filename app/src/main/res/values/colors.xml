@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#F60767</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="true_black">#000</color>
+    <color name="yellow_overlay">#99FBFF2C</color>
+    <color name="white_full">#fff</color>
+    <color name="gray">#737373</color>
+    <color name="toolbar_background">#FBFF2C</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#3700B3</color>
+</resources>
